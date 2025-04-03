@@ -14,5 +14,6 @@ const randomEmail = () => {
     }
 }
 
+//Aggiunta funzione al click del pulsante
 randomEmail();
 button.addEventListener('click', randomEmail);
