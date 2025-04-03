@@ -2,5 +2,68 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Lato';
+}
+
+body{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+}
+
+body .h1{
+    text-align: center;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+#email-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 780px;
+    padding: 20px 0;
+    border: 3px solid black;
+}
+
+.email{
+    width: 70%;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.col-100{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*--SEZIONE BUTTON&HOVER--*/
+
+button{
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 196, 151);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(0, 196, 151, 0.8);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.email:hover{
+    background-color: #3e3e46;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
 }
